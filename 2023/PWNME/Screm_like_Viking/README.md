@@ -53,7 +53,9 @@ We notice that e is very small = 17, we have many attack when the public exponen
 
 After searching on the internet the attack that shoul work is **Håstad's broadcast attack,** it use chinese remainder theorem to attack it, what should we have is 17 times N and 17 times the FLAG, because in this scenario we have e = 17.
 
+
 In this [chall.py](./chall.py) it doesn’t print N for u, so we should recover it using GCD, so the idea is to encrypt m then calculate $m^{17}$ then subtract the ciphertext that gives to us, then we send another m and do the same approch, then we can calculate N by using GCD of them 
+
 
 ```python
 import math
