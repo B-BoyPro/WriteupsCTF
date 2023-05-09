@@ -13,5 +13,3 @@ for i in f:
         encrypted += i
 
 print(encrypted)
-
-#rtkw{cf0bj_czbv_nv'cc_y4mv_kf_kip_re0kyvi_uivjj1ex_5vw89s3r44901831}
