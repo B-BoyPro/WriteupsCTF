@@ -8,6 +8,11 @@ from Crypto.Util.number import *
 import math 
 from gmpy2 import * 
 
+<<<<<<< HEAD
+=======
+#PWNME{h4st4rd_br0adc4st_d3str0y_s1mple_p4dd1ng}
+
+>>>>>>> 9df12aa8296763caa887ea12412eea5e39164520
 n = []
 pos_flag = []
 for k in range(17):
