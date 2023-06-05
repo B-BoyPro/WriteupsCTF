@@ -1,0 +1,3 @@
+# This is a nice challenge to start using LLL algorithms
+
+Basically there is a lot of paper that describe how to use attack knapsack using LLL, but in this challenge it’s a little bit different, because of the density, so we should try a different attack but very similar, with some search on google i found this [paper](https://eprint.iacr.org/2007/066.pdf) . So i replicate the attack constructing the Matrix and run LLL, easy as that.
